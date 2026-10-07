@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "claudeclient",
+  "version": "${version}",
+  "name": "Claude Client",
+  "description": "Claude Client with Sus Chunk Finder, Storage ESP, Player Debug, Lag Cut and more.",
+  "authors": ["Claude Client"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.claudeclient.ClaudeClient",
+      "com.suschunkfinder.SusChunkFinderClient"
+    ]
+  },
+  "mixins": [
+    "claudeclient.client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

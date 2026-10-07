@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "package": "com.example.claudeclient.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": ["ParticleManagerMixin", "InGameOverlayRendererMixin"],
+  "injectors": { "defaultRequire": 0 }
+}
